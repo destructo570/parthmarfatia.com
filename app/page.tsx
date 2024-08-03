@@ -1,11 +1,11 @@
 import { profileQuery } from "@/lib/sanity.query";
 import type { ProfileType } from "@/types";
-import HeroSvg from "./assets/icons/HeroSvg";
 import Job from "./components/pages/Job";
 import Social from "./components/shared/Social";
 import { Slide } from "./animation/Slide";
 import { sanityFetch } from "@/lib/sanity.client";
 import ContributionGraph from "./components/pages/GithubCalendarComponent";
+import GlobeWrapper from "./components/shared/GlobeWrapper";
 
 export default async function Home() {
   const profile: ProfileType[] = await sanityFetch({
@@ -32,8 +32,8 @@ export default async function Home() {
               </Slide>
             </div>
           ))}
-        <Slide delay={0.14}>
-          <HeroSvg />
+        <Slide delay={0.14} className="h-96 w-full">
+          <GlobeWrapper />
         </Slide>
       </section>
       <ContributionGraph />
