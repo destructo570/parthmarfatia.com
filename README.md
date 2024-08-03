@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://parthmarfatia.com"><img src="./public/logo.png" width="60px"></a>
+<a href="https://parthmarfatia.com"><img src="./public/logo.jpg" width="60px"></a>
 </div>
 
 <div align="center">
