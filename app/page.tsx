@@ -5,7 +5,9 @@ import Social from "./components/shared/Social";
 import { Slide } from "./animation/Slide";
 import { sanityFetch } from "@/lib/sanity.client";
 import ContributionGraph from "./components/pages/GithubCalendarComponent";
+
 import GlobeWrapper from "./components/shared/GlobeWrapper";
+import AvatarAnimationWrapper from "./components/shared/AvatarAnimationWrapper";
 
 export default async function Home() {
   const profile: ProfileType[] = await sanityFetch({
@@ -33,7 +35,8 @@ export default async function Home() {
             </div>
           ))}
         <Slide delay={0.14} className="h-96 w-full">
-          <GlobeWrapper />
+          {/* <GlobeWrapper /> */}
+          <AvatarAnimationWrapper />
         </Slide>
       </section>
       <ContributionGraph />
