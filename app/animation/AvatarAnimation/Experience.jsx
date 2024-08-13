@@ -31,8 +31,8 @@ export const Experience = () => {
   return (
     <>
       <motion.group
-        position={[0.34400000000000002, 0.14400000000000002, 2.681801948466054]}
-        rotation={[-Math.PI/2, 0, 1.87]}
+        position={[0.2, 0.14400000000000002, 2.6]}
+        rotation={[-Math.PI/2, 0, 3.0]}
         animate={"0"}
         transition={{
           duration: 0.6,
@@ -47,11 +47,11 @@ export const Experience = () => {
       >
         <Avatar animation={"Typing"} />
       </motion.group>
-      <ambientLight intensity={1} />
+      <ambientLight intensity={1.5} />
       <motion.group
         position={[0, 0, 3]}
         scale={[0.9, 0.9, 0.9]}
-        rotation-y={-Math.PI / 4}
+        rotation-y={0}
         animate={{
           y: 0,
         }}

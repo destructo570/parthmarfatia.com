@@ -5,7 +5,7 @@ import { Experience } from "./Experience";
 function AvatarAnimation() {
   return (
     <>
-        <Canvas shadows camera={{ position: [0, 3, 10], fov: 50 }}>
+        <Canvas shadows camera={{ position: [1, 4, 10], fov: 13.5 }}>
               <Experience />
         </Canvas>
       <Leva hidden />
