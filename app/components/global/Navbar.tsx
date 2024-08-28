@@ -8,6 +8,10 @@ import MobileMenu from "./MobileMenu";
 export default function Navbar() {
   const data = [
     {
+      title: "Home",
+      href: "/",
+    },
+    {
       title: "About",
       href: "/about",
     },
@@ -18,10 +22,6 @@ export default function Navbar() {
     {
       title: "Blog",
       href: "/blog",
-    },
-    {
-      title: "Photos",
-      href: "/photos",
     },
   ];
 

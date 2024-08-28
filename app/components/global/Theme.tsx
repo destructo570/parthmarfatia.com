@@ -16,7 +16,7 @@ export default function Theme() {
 
   if (!hasMounted)
     return (
-      <span className="animate-pulse min-w-[28px] min-h-[28px] p-2 rounded-full dark:bg-zinc-800 bg-zinc-200 border dark:border-zinc-700 border-zinc-300"></span>
+      <span className="animate-pulse min-w-[40px] min-h-[40px] p-2 rounded-full dark:bg-zinc-800 bg-zinc-200 border dark:border-zinc-700 border-zinc-300"></span>
     );
 
   return (

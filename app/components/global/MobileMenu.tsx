@@ -6,7 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import {
   HiBeaker,
   HiBookmarkAlt,
-  HiCamera,
+  HiHome,
   HiOutlineX,
   HiUser,
 } from "react-icons/hi";
@@ -15,6 +15,11 @@ import Logo from "../../../public/logo.jpg";
 export default function MobileMenu() {
   const [navShow, setNavShow] = useState(false);
   const data = [
+    {
+      title: "Home",
+      href: "/",
+      icon: HiHome,
+    },
     {
       title: "About",
       href: "/about",
@@ -29,12 +34,7 @@ export default function MobileMenu() {
       title: "Blog",
       href: "/blog",
       icon: HiBookmarkAlt,
-    },
-    {
-      title: "Photos",
-      href: "/photos",
-      icon: HiCamera,
-    },
+    }
   ];
 
   const onToggleNav = () => {
