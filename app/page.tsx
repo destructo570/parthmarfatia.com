@@ -6,6 +6,8 @@ import { Slide } from "./animation/Slide";
 import { sanityFetch } from "@/lib/sanity.client";
 import ContributionGraph from "./components/pages/GithubCalendarComponent";
 import HeroSvg from "./assets/icons/HeroSvg";
+import { BiSolidDownload } from "react-icons/bi";
+import Link from "next/link";
 
 export default async function Home() {
   const profile: ProfileType[] = await sanityFetch({
@@ -30,6 +32,20 @@ export default async function Home() {
               <Slide delay={0.1}>
                 <Social type="social" />
               </Slide>
+              <Slide delay={0.1}>
+                  <Link
+                    href="./parth-marfatia-resume.pdf"
+                    download
+                    className="flex gap-2 px-3 w-fit items-center justify-center text-center hover:underline text-primary-color dark:bg-primary-bg bg-zinc-100 border border-transparent border-primary-color font-incognito font-semibold rounded-md py-3 text-lg"
+                  >
+                    <BiSolidDownload
+                        className="text-lg"
+                        aria-label="Download Resume"
+                      />
+                      Download Résumé 
+                  </Link>
+              </Slide>
+      
             </div>
           ))}
         <Slide delay={0.14} className="h-96 w-full">
