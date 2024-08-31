@@ -30,7 +30,7 @@ Follow this guide to get this site runnning locally:
 ### Clone Repository
 
 ```js
-git clone https://github.com/Evavic44/parthmarfatia.com.git
+git clone https://github.com/parthmarfatia/parthmarfatia.com.git
 
 cd parthmarfatia.com
 
@@ -126,11 +126,11 @@ This portfolio is MIT-licensed so you are free to use it as an inspiration or yo
 [reactrefractor]: https://github.com/rexxars/react-refractor
 [site]: https://parthmarfatia.com
 [studio]: https://parthmarfatia.com/studio
-[studio-preview]: https://github.com/Evavic44/parthmarfatia.com/assets/62628408/a2574479-a352-4437-ba67-14bd976e48eb
-[site-preview]: https://github.com/Evavic44/parthmarfatia.com/assets/62628408/e84ac72f-1ba1-4c46-bfc0-2512ffa0e5fa
-[env-example]: https://github.com/Evavic44/parthmarfatia.com/blob/main/.env.example
+[studio-preview]: https://github.com/parthmarfatia/parthmarfatia.com/assets/62628408/a2574479-a352-4437-ba67-14bd976e48eb
+[site-preview]: https://github.com/parthmarfatia/parthmarfatia.com/assets/62628408/e84ac72f-1ba1-4c46-bfc0-2512ffa0e5fa
+[env-example]: https://github.com/parthmarfatia/parthmarfatia.com/blob/main/.env.example
 [localhost]: http://localhost:3000
 [localhost-studio]: http://localhost:3000/studio
-[env-api]: https://github.com/Evavic44/parthmarfatiaatia.com/blob/main/lib/env.api.ts
+[env-api]: https://github.com/parthmarfatia/parthmarfatiaatia.com/blob/main/lib/env.api.ts
 [sanity-manage]: https://sanity.io/manage
 [sanity-guide]: https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-sanity-and-nextjs
