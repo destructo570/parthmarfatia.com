@@ -122,13 +122,13 @@ export default async function Post({ params }: Props) {
                     : formatDate(post._createdAt)}
                 </time>
               </div>
-              <Link
+              {/* <Link
                 href="#comments"
                 className="flex items-center gap-x-2 dark:text-primary-color text-tertiary-color"
               >
                 <HiChat />
                 <div className="#comments">Comments</div>
-              </Link>
+              </Link> */}
               <div className="flex items-center gap-x-2">
                 <BiSolidTime />
                 <div className="">{readTime(words)}</div>
