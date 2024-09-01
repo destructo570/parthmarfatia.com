@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://parthmarfatia.com/projects",
     description: "Explore projects built by Parth Marfatia",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/projects.png",
+      "https://res.cloudinary.com/dadzqvfxu/image/upload/v1725167946/projects_iapytk.png",
   },
 };
 

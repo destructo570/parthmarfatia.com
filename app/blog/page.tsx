@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://parthmarfatia.com/blog",
     description: "Read latest stories from Parth Marfatia's Blog",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/blog.png",
+      "https://res.cloudinary.com/dadzqvfxu/image/upload/v1725167945/blog_axjsqk.png",
   },
 };
 
